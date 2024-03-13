@@ -1,19 +1,26 @@
 <script setup>
-// import NavigationHeaders from '../components/NavigationHeaders.vue'
+import NavigationHeaders from '../components/NavigationHeaders.vue'
 </script>
 
 <template>
-  <main class="pageMargins">
-    <!-- TODO header -->
-    <!-- <NavigationHeaders /> -->
-    <!-- TODO create grid components -->
+  <div class="pageMargins">
+    <main>
+      <!-- TODO header -->
+      <div>
+        <NavigationHeaders />
+      </div>
+      <div>
+        <p>test</p>
+      </div>
+      <!-- TODO create grid components -->
 
-    <!-- TODO create left side nav bar like youtube -->
-  </main>
+      <!-- TODO create left side nav bar like youtube -->
+    </main>
+  </div>
 </template>
 
-<style scoped>
+<style>
 .pageMargins {
-  margin-top: -15px;
+  /* margin-top: -15px; */
 }
 </style>
