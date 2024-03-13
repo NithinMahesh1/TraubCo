@@ -6,7 +6,7 @@ import NavigationHeaders from '../components/NavigationHeaders.vue'
   <div class="pageMargins">
     <main>
       <!-- TODO header -->
-      <div>
+      <div class="mainPageMargins">
         <NavigationHeaders />
       </div>
       <div>
@@ -22,5 +22,8 @@ import NavigationHeaders from '../components/NavigationHeaders.vue'
 <style>
 .pageMargins {
   /* margin-top: -15px; */
+}
+.mainPageMargins {
+
 }
 </style>
