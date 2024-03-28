@@ -38,11 +38,11 @@
 
 <style>
 img {
-  margin-right: 10px;
+  margin-right: 7px;
   margin-top: 0px;
-  width: 170px;
-  height: 53px;
-} 
+  width: 190px;
+  height: 57px;
+}
 .top-header {
   background-color: #73737733;
   /* background-color: #1d1d1f; */
@@ -78,4 +78,13 @@ a {
 .headerSubName {
   color: white;
 }
+
+
+
+/* @media screen and (min-width: 620px) {
+  body {
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+} */
 </style>

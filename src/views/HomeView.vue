@@ -1,20 +1,23 @@
 <script setup>
 import NavigationHeaders from '../components/NavigationHeaders.vue'
+import FeaturedStories from '../views/FeaturedStories.vue'
 </script>
 
 <template>
   <div class="pageMargins">
     <main>
-      <!-- TODO header -->
       <div class="mainPageMargins">
+        <!-- TODO create one general component for drop down menus
+        TODO for each dropdown we will modify that componet with data accordingly here -->
         <NavigationHeaders />
       </div>
       <div>
-        <p>test</p>
+        <!-- TODO featured stories view -->
+        <FeaturedStories />
       </div>
-      <!-- TODO create grid components -->
-
-      <!-- TODO create left side nav bar like youtube -->
+      <div>
+        <!-- TODO create grid component or view for other links like jobs or sale information etc -->
+      </div>
     </main>
   </div>
 </template>
