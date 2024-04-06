@@ -6,7 +6,6 @@
    <header>
       <div class="top-header">
           <div class="left">
-            <!-- <img src="../assets/traubco_llc_logo.jpg" /> -->
             <img src="../assets/TraubCo_logo_small.png" />
           </div>
           <div>
